@@ -1,5 +1,7 @@
+//using uuid package for creating unique ID for every new book
 import { v4 as uuidv4 } from "uuid";
 
+//Creating bookReducer for saving works that we want to do on state according to the action type
 export const bookReducer = (state, action) => {
   switch (action.type) {
     case "ADD_BOOK":

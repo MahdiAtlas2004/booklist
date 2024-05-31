@@ -72,8 +72,14 @@ input[type='text'] {
 }
 input[type='submit'] {
   margin: 10px auto;
-  background: #eee;
+  background-color: #eee;
   border: 0;
   padding: 6px 20px;
   display: block;
+  border-radius: 4px;
+}
+input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #794a79;
+  color: #fff;
 }
